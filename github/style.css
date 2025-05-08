@@ -1,0 +1,35 @@
+/*araquivo CSS da de Desenvolvimento para Internet - Unipar 2025*/
+/*Resset CSS: importante para zerar todos os estilos já aplicados*/
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+
+}
+/*Variavel*/
+/*Posso salvar minhas variaves, configuraç~~oes que podem ser usadas globalmente no CSS*/
+:root{
+    --primary-color: red;
+    --font-site: 12px;
+
+
+}
+
+
+/*Componemtes*/
+/*O que são componentes: Botões, Formularios, input's, select's, etc...*/
+button{
+    background-color: var(--primary-color); /*usando variavel*/
+    font-size: var(--font-site);
+    color: azure;
+    padding: 2%;
+    height: 10%;
+    width: 50%;
+    min-height: 100px;
+    max-height: 500px;
+
+
+}
